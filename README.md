@@ -26,80 +26,60 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/mikelm2020/rentopia">
-    <img src="https://raw.githubusercontent.com/mikelm2020/rentopia/main/assets/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/mikelm2020/tcp_server">
+    <img src="https://raw.githubusercontent.com/mikelm2020/tcp_server/main/assets/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">rentopia</h3>
+  <h3 align="center">tcp_server</h3>
 
   <p align="center">
-    API for property rental plattform
+    Servidor TCP
     <br />
-    <a href="https://github.com/mikelm2020/rentopia"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <!-- <a href="https://service-streaming.onrender.com/">View Demo</a> -->
     ·
-    <a href="https://github.com/mikelm2020/rentopia/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/mikelm2020/rentopia/issues">Request Feature</a>
   </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Table of Contenidos</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Acerca del proyecto</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation">Instalación</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <!-- <li><a href="#roadmap">Roadmap</a></li> -->
     <!-- <li><a href="#contributing">Contributing</a></li> -->
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Product Name Screen Shot](https://raw.githubusercontent.com/mikelm2020/rentopia/main/assets/rentopia.png)
+![Product Name Screen Shot](https://raw.githubusercontent.com/mikelm2020/tcp_server/main/assets/tcp_server.png)
 
-This is a personal project of backend for a property rental plattform with name Rentopia
+Esta es una prueba técnica
 
-In this project the objetives are:
-* Create a local database with PostgreSQL through Django ORM
-* Use JWT with custom user model
-* Login with username, email and password
-* Verifiy email for activate the user
-* Colaboration with multi regional grouup of developers Frontend and Backend
-* Use abstract model in all models
-* USe UUID for primary keys in the models
-* Create the REST API for CRUD operations through Django Rest Framework
-* Use Swagger for document the REST API
+El onjetivo es:
+* Crear un servidor TCP
+* Enviar un mensaje a traves de un cliente
+* El servidor debe responder con el mensaje en mayusculas
+* Si el cliente envía DESCONEXION se ciera la conexión con el cliente
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 * [![Python][Python]][Python-url]
-* [![Django][Django]][Django-url]
-* [![DjangoREST][DjangoREST]][DjangoREST-url]
-* [![Swagger][Swagger]][Swagger-url]
-* [![JWT][JWT]][JWT-url]
-* [![Postgres][Postgres]][Postgres-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,11 +92,11 @@ This project use a postgreSQL local database.
 
 ### Installation
 
-1. Clone the repository
+1. Clonar el repositorio
    ```sh
-   git clone https://github.com/mikelm2020/rentopia.git
+   git clone https://github.com/mikelm2020/tcp_server.git
    ```
-2. Create the python virtual enviroment
+2. Create un ambiente virtual
 3. Prepare the virtual enviroment through of local requirements file in the requirements folder
    ```sh
    pip install -r requirements.txt
@@ -154,7 +134,7 @@ The indications for use the API are:
 - [ ] Add geolocalization
 - [ ] Add upload control with Cloudinary
 
-See the [open issues](https://github.com/mikelm2020/rentopia/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/mikelm2020/tcp_server/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -191,19 +171,19 @@ My favorite resources used:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/mikelm2020/rentopia.svg?style=for-the-badge
-[contributors-url]: https://github.com/mikelm2020/rentopia/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/mikelm2020/rentopia.svg?style=for-the-badge
-[forks-url]: https://github.com/mikelm2020/rentopia/network/members
-[stars-shield]: https://img.shields.io/github/stars/mikelm2020/rentopia.svg?style=for-the-badge
-[stars-url]: https://github.com/mikelm2020/rentopia/stargazers
-[issues-shield]: https://img.shields.io/github/issues/mikelm2020/rentopia.svg?style=for-the-badge
-[issues-url]: https://github.com/mikelm2020/rentopia/issues
-[license-shield]: https://img.shields.io/github/license/mikelm2020/rentopia.svg?style=for-the-badge
-[license-url]: https://github.com/mikelm2020/rentopia/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/mikelm2020/tcp_server.svg?style=for-the-badge
+[contributors-url]: https://github.com/mikelm2020/tcp_server/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/mikelm2020/tcp_server.svg?style=for-the-badge
+[forks-url]: https://github.com/mikelm2020/tcp_server/network/members
+[stars-shield]: https://img.shields.io/github/stars/mikelm2020/tcp_server.svg?style=for-the-badge
+[stars-url]: https://github.com/mikelm2020/tcp_server/stargazers
+[issues-shield]: https://img.shields.io/github/issues/mikelm2020/tcp_server.svg?style=for-the-badge
+[issues-url]: https://github.com/mikelm2020/tcp_server/issues
+[license-shield]: https://img.shields.io/github/license/mikelm2020/tcp_server.svg?style=for-the-badge
+[license-url]: https://github.com/mikelm2020/tcp_server/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/miguellopezmdev
-[product-screenshot]: https://github.com/mikelm2020/rentopia/blob/82a8c694a418723faacf992c5dd76b6e328120f8/api_playlists.png
+[product-screenshot]: https://github.com/mikelm2020/tcp_server/blob/82a8c694a418723faacf992c5dd76b6e328120f8/api_playlists.png
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
 [Django]: https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white
