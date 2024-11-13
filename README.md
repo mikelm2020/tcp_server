@@ -73,6 +73,6 @@ El objetivo es:
 * Crear un servidor TCP
 * Enviar un mensaje a traves de un cliente
 * El servidor debe responder con el mensaje en mayusculas
-* Si el cliente envía DESCONEXION se ciera la conexión con el cliente
+* Si el cliente envía DESCONEXION se cierra la conexión con el cliente
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
