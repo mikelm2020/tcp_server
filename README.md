@@ -12,30 +12,9 @@
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contenidos</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">Acerca del proyecto</a>
-      <ul>
-      </ul>
-    </li>
-    <li>
-      <ul>
-        <li><a href="#installation">Instalación</a></li>
-      </ul>
-    </li>
-    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
-    <!-- <li><a href="#contributing">Contributing</a></li> -->
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 ## Acerca del proyecto
-
-![Product Name Screen Shot](https://raw.githubusercontent.com/mikelm2020/tcp_server/main/assets/tcp_server.png)
 
 Esta es una prueba técnica
 
